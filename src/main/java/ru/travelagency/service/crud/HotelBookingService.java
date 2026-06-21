@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 import ru.travelagency.domain.Hotel;
 import ru.travelagency.domain.HotelBooking;
 import ru.travelagency.domain.Tourist;
-import ru.travelagency.dto.HotelBookingDto;
+import ru.travelagency.dto.core.HotelBookingDto;
 import ru.travelagency.exception.NotFoundException;
 import ru.travelagency.mapper.HotelBookingMapper;
 import ru.travelagency.repository.HotelBookingRepository;

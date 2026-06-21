@@ -3,7 +3,7 @@ package ru.travelagency.service.report;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.travelagency.domain.*;
-import ru.travelagency.dto.TouristDto;
+import ru.travelagency.dto.core.TouristDto;
 import ru.travelagency.dto.report.*;
 import ru.travelagency.enums.EntryType;
 import ru.travelagency.enums.FinancialCategory;

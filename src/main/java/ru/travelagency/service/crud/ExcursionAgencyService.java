@@ -2,7 +2,7 @@ package ru.travelagency.service.crud;
 
 import org.springframework.stereotype.Service;
 import ru.travelagency.domain.ExcursionAgency;
-import ru.travelagency.dto.ExcursionAgencyDto;
+import ru.travelagency.dto.core.ExcursionAgencyDto;
 import ru.travelagency.mapper.ExcursionAgencyMapper;
 import ru.travelagency.repository.ExcursionAgencyRepository;
 

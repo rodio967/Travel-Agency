@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import ru.travelagency.dto.HotelBookingDto;
+import ru.travelagency.dto.core.HotelBookingDto;
 import ru.travelagency.service.crud.HotelBookingService;
 
 import static ru.travelagency.security.PermissionCodes.HOTEL_BOOKING_READ;

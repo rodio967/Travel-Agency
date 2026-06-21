@@ -2,7 +2,7 @@ package ru.travelagency.mapper;
 
 import org.springframework.stereotype.Component;
 import ru.travelagency.domain.Visa;
-import ru.travelagency.dto.VisaDto;
+import ru.travelagency.dto.core.VisaDto;
 
 @Component
 public class VisaMapper implements Mapper<Visa, VisaDto> {

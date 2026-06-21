@@ -1,4 +1,4 @@
-package ru.travelagency.dto;
+package ru.travelagency.dto.core;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.NotBlank;

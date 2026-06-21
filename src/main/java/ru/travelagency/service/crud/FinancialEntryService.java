@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 import ru.travelagency.domain.FinancialEntry;
 import ru.travelagency.domain.Tourist;
 import ru.travelagency.domain.TouristGroup;
-import ru.travelagency.dto.FinancialEntryDto;
+import ru.travelagency.dto.core.FinancialEntryDto;
 import ru.travelagency.exception.BusinessRuleException;
 import ru.travelagency.exception.NotFoundException;
 import ru.travelagency.mapper.FinancialEntryMapper;

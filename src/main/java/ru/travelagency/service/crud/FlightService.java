@@ -2,7 +2,7 @@ package ru.travelagency.service.crud;
 
 import org.springframework.stereotype.Service;
 import ru.travelagency.domain.Flight;
-import ru.travelagency.dto.FlightDto;
+import ru.travelagency.dto.core.FlightDto;
 import ru.travelagency.mapper.FlightMapper;
 import ru.travelagency.repository.FlightRepository;
 

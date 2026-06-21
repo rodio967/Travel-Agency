@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.travelagency.domain.AppUser;
 import ru.travelagency.domain.Role;
-import ru.travelagency.dto.AppUserDto;
+import ru.travelagency.dto.core.AppUserDto;
 import ru.travelagency.exception.BusinessRuleException;
 import ru.travelagency.exception.NotFoundException;
 import ru.travelagency.mapper.AppUserMapper;

@@ -3,7 +3,7 @@ package ru.travelagency.service.crud;
 import org.springframework.stereotype.Service;
 import ru.travelagency.domain.Tourist;
 import ru.travelagency.domain.Visa;
-import ru.travelagency.dto.VisaDto;
+import ru.travelagency.dto.core.VisaDto;
 import ru.travelagency.exception.NotFoundException;
 import ru.travelagency.mapper.VisaMapper;
 import ru.travelagency.repository.TouristRepository;

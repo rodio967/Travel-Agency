@@ -2,7 +2,7 @@ package ru.travelagency.mapper;
 
 import org.springframework.stereotype.Component;
 import ru.travelagency.domain.FinancialEntry;
-import ru.travelagency.dto.FinancialEntryDto;
+import ru.travelagency.dto.core.FinancialEntryDto;
 
 @Component
 public class FinancialEntryMapper implements Mapper<FinancialEntry, FinancialEntryDto> {

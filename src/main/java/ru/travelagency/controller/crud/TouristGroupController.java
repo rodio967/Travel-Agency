@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import ru.travelagency.dto.TouristGroupDto;
+import ru.travelagency.dto.core.TouristGroupDto;
 import ru.travelagency.service.crud.TouristGroupService;
 
 import static ru.travelagency.security.PermissionCodes.GROUP_READ;

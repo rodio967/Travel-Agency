@@ -2,7 +2,7 @@ package ru.travelagency.mapper;
 
 import org.springframework.stereotype.Component;
 import ru.travelagency.domain.Cargo;
-import ru.travelagency.dto.CargoDto;
+import ru.travelagency.dto.core.CargoDto;
 
 @Component
 public class CargoMapper implements Mapper<Cargo, CargoDto> {

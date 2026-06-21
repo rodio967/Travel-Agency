@@ -1,4 +1,4 @@
-package ru.travelagency.dto;
+package ru.travelagency.dto.core;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

@@ -7,8 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import ru.travelagency.dto.PermissionDto;
-import ru.travelagency.dto.RoleDto;
+import ru.travelagency.dto.core.PermissionDto;
+import ru.travelagency.dto.core.RoleDto;
 import ru.travelagency.service.crud.RoleService;
 
 import java.util.List;

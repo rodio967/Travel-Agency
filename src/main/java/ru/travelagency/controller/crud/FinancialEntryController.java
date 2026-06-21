@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import ru.travelagency.dto.FinancialEntryDto;
+import ru.travelagency.dto.core.FinancialEntryDto;
 import ru.travelagency.service.crud.FinancialEntryService;
 
 import static ru.travelagency.security.PermissionCodes.FINANCE_READ;

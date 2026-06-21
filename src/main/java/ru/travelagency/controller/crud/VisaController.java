@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import ru.travelagency.dto.VisaDto;
+import ru.travelagency.dto.core.VisaDto;
 import ru.travelagency.service.crud.VisaService;
 
 import static ru.travelagency.security.PermissionCodes.VISA_READ;

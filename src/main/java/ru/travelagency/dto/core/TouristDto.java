@@ -1,4 +1,4 @@
-package ru.travelagency.dto;
+package ru.travelagency.dto.core;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;

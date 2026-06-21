@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 import ru.travelagency.domain.Cargo;
 import ru.travelagency.domain.Flight;
 import ru.travelagency.domain.Tourist;
-import ru.travelagency.dto.CargoDto;
+import ru.travelagency.dto.core.CargoDto;
 import ru.travelagency.exception.NotFoundException;
 import ru.travelagency.mapper.CargoMapper;
 import ru.travelagency.repository.CargoRepository;

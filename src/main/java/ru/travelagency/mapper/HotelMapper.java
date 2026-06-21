@@ -2,7 +2,7 @@ package ru.travelagency.mapper;
 
 import org.springframework.stereotype.Component;
 import ru.travelagency.domain.Hotel;
-import ru.travelagency.dto.HotelDto;
+import ru.travelagency.dto.core.HotelDto;
 
 @Component
 public class HotelMapper implements Mapper<Hotel, HotelDto> {

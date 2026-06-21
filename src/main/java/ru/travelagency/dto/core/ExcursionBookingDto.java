@@ -1,4 +1,4 @@
-package ru.travelagency.dto;
+package ru.travelagency.dto.core;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

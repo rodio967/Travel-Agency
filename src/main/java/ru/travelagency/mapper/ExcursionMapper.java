@@ -2,7 +2,7 @@ package ru.travelagency.mapper;
 
 import org.springframework.stereotype.Component;
 import ru.travelagency.domain.Excursion;
-import ru.travelagency.dto.ExcursionDto;
+import ru.travelagency.dto.core.ExcursionDto;
 
 @Component
 public class ExcursionMapper implements Mapper<Excursion, ExcursionDto> {

@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import ru.travelagency.dto.ExcursionDto;
+import ru.travelagency.dto.core.ExcursionDto;
 import ru.travelagency.service.crud.ExcursionService;
 
 import static ru.travelagency.security.PermissionCodes.EXCURSION_READ;

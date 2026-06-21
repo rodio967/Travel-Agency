@@ -3,7 +3,7 @@ package ru.travelagency.service.crud;
 import org.springframework.stereotype.Service;
 import ru.travelagency.domain.Flight;
 import ru.travelagency.domain.TouristGroup;
-import ru.travelagency.dto.TouristGroupDto;
+import ru.travelagency.dto.core.TouristGroupDto;
 import ru.travelagency.exception.NotFoundException;
 import ru.travelagency.mapper.TouristGroupMapper;
 import ru.travelagency.repository.FlightRepository;

@@ -1,4 +1,4 @@
-package ru.travelagency.dto;
+package ru.travelagency.dto.core;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -14,21 +14,24 @@ import java.time.LocalDate;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class VisaDto {
+public class HotelBookingDto {
 
     private Long id;
 
     @NotNull
     private Long touristId;
 
+    @NotNull
+    private Long hotelId;
+
     @NotBlank
-    private String visaNumber;
+    private String roomNumber;
 
     @NotNull
-    private LocalDate issueDate;
+    private LocalDate checkInDate;
 
     @NotNull
-    private LocalDate expiryDate;
+    private LocalDate checkOutDate;
 
     private BigDecimal cost;
 }

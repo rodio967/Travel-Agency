@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 import ru.travelagency.domain.Excursion;
 import ru.travelagency.domain.ExcursionBooking;
 import ru.travelagency.domain.Tourist;
-import ru.travelagency.dto.ExcursionBookingDto;
+import ru.travelagency.dto.core.ExcursionBookingDto;
 import ru.travelagency.exception.NotFoundException;
 import ru.travelagency.mapper.ExcursionBookingMapper;
 import ru.travelagency.repository.ExcursionBookingRepository;

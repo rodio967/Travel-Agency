@@ -3,7 +3,7 @@ package ru.travelagency.controller.report;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import ru.travelagency.dto.TouristDto;
+import ru.travelagency.dto.core.TouristDto;
 import ru.travelagency.dto.report.*;
 import ru.travelagency.enums.TouristType;
 import ru.travelagency.service.report.ReportService;

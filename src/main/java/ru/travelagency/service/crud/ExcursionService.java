@@ -3,7 +3,7 @@ package ru.travelagency.service.crud;
 import org.springframework.stereotype.Service;
 import ru.travelagency.domain.Excursion;
 import ru.travelagency.domain.ExcursionAgency;
-import ru.travelagency.dto.ExcursionDto;
+import ru.travelagency.dto.core.ExcursionDto;
 import ru.travelagency.exception.NotFoundException;
 import ru.travelagency.mapper.ExcursionMapper;
 import ru.travelagency.repository.ExcursionAgencyRepository;

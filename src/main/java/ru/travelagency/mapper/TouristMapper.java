@@ -3,7 +3,10 @@ package ru.travelagency.mapper;
 import org.hibernate.Hibernate;
 import org.springframework.stereotype.Component;
 import ru.travelagency.domain.*;
-import ru.travelagency.dto.*;
+import ru.travelagency.dto.core.ChildDto;
+import ru.travelagency.dto.core.RestTouristDto;
+import ru.travelagency.dto.core.ShopTouristDto;
+import ru.travelagency.dto.core.TouristDto;
 
 import java.util.HashSet;
 import java.util.Set;

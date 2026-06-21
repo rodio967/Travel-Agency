@@ -3,7 +3,7 @@ package ru.travelagency.mapper;
 import org.springframework.stereotype.Component;
 import ru.travelagency.domain.AppUser;
 import ru.travelagency.domain.Role;
-import ru.travelagency.dto.AppUserDto;
+import ru.travelagency.dto.core.AppUserDto;
 
 import java.util.HashSet;
 import java.util.stream.Collectors;

@@ -2,7 +2,7 @@ package ru.travelagency.mapper;
 
 import org.springframework.stereotype.Component;
 import ru.travelagency.domain.Flight;
-import ru.travelagency.dto.FlightDto;
+import ru.travelagency.dto.core.FlightDto;
 
 @Component
 public class FlightMapper implements Mapper<Flight, FlightDto> {

@@ -1,34 +1,28 @@
-package ru.travelagency.dto;
+package ru.travelagency.dto.core;
 
+import jakarta.validation.constraints.DecimalMax;
+import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ExcursionDto {
+public class ExcursionAgencyDto {
 
     private Long id;
-
-    @NotNull
-    private Long agencyId;
 
     @NotBlank
     private String name;
 
-    private String description;
+    private String contact;
 
-    @NotNull
-    private BigDecimal price;
-
-    @NotNull
-    private LocalDate excursionDate;
+    @DecimalMin("0.0") @DecimalMax("10.0")
+    private BigDecimal qualityRating;
 }

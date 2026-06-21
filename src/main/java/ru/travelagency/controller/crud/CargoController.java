@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import ru.travelagency.dto.CargoDto;
+import ru.travelagency.dto.core.CargoDto;
 import ru.travelagency.service.crud.CargoService;
 
 import static ru.travelagency.security.PermissionCodes.CARGO_READ;
