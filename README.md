@@ -9,10 +9,33 @@ React + TypeScript + Vite + Material UI.
 
 ## Запуск
 
+### Через Docker Compose
+
+При запущенном Docker выполните из корня проекта, где лежит `docker-compose.yml`:
+
+```bash
+docker compose up --build -d --wait
+```
+
+Откройте [http://localhost:5173](http://localhost:5173). При первом запуске
+доступен вход под `admin` / `admin`.
+
+При необходимости задайте в `.env` в корне проекта
+`DB_NAME`, `DB_USER`, `DB_PASSWORD`.
+
+```bash
+docker compose logs -f     # смотреть логи
+docker compose down       # остановить сервисы
+```
+
+Данные PostgreSQL хранятся в томе `postgres_data`.
+
+### Вручную
+
 Приложение состоит из двух частей: **backend** (REST API на 8080) и **frontend**
 (React-интерфейс на 5173). Для работы нужны оба.
 
-### Backend
+#### Backend
 
 1. Поднять PostgreSQL и создать БД:
    ```sql
@@ -32,7 +55,7 @@ React + TypeScript + Vite + Material UI.
 
 API поднимается на `http://localhost:8080`.
 
-### Frontend
+#### Frontend
 
 ```bash
 cd frontend
